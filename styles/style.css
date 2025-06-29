@@ -60,8 +60,8 @@ body {
 }
 
 .content-image > img {
-    height: 400px;
-    width: 800px;
+    height: 300px;
+    width: 600px;
 }
 
 .sing-up {
@@ -103,24 +103,50 @@ body {
     border: 3px solid;
     border-color: #2054a7;
     border-radius: 15px;
-    width: autopx;
+    width: auto;
     height: 300px;
 }
+/* Information end */
 
+/* Quote */
 .quote {
     background-color: #e5e7eb;
     padding: 60px 400px;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .quote > h1 {
     color: #1f2937;
     font-size: 36px italic;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .quote > p {
-    text-align: end;
+    /* text-align: end; */
     font-weight: 800;
 }
+/* Quote end */
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 300px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 80px;
+    color: white;
+}
+
+.footer-text > h1,
+.footer-text > p {
+    margin: 0;
+}
+
+.footer > button {
+    align-self: center;
+    border-color: white;
+}
+/* Footer end */
